@@ -1,0 +1,16 @@
+{
+  "name": "idea-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes Reddit and Hacker News for validated business ideas, reports via Claude",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
